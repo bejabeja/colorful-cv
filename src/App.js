@@ -9,13 +9,12 @@ function App() {
     <div className="App">
       <header className="App-header">
       </header>
-        <body>
-            <Intro></Intro>
-            <About></About>
-            <Timeline></Timeline>
-            <Contact></Contact>
-        </body>
-        <footer></footer>
+    <body>
+        <Intro></Intro>
+        <About></About>
+        <Timeline></Timeline>
+        <Contact></Contact>
+    </body>
     </div>
   );
 }
