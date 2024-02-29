@@ -1,0 +1,41 @@
+.section--about {
+    margin: 5rem 2rem;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.about--title {
+    font-size: 2rem;
+    color: rgb(243,123,131);
+}
+
+.about--text {
+    max-width: 750px;
+}
+
+.about--tech-stacks {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    row-gap: 3rem;
+    place-items: center;
+}
+
+.about--tech-stacks > * {
+    width: 45px;
+}
+
+@media (min-width: 767px) {
+    .section--about {
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .about--left {
+        width: 50%;
+    }
+
+    .about--right {
+        width: 50%;
+    }
+}

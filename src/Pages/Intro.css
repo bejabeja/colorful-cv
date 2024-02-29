@@ -1,0 +1,86 @@
+.section-one {
+    display: flex;
+    flex-direction: column;
+}
+
+.left {
+    padding: 2rem 0;
+    background-color: rgba(243, 123, 131, 0.2);
+}
+
+.main-title {
+    font-size: 2rem;
+    color: rgb(243,123,131);
+    margin: 0 2rem;
+}
+
+.main-text {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 2rem;
+    margin-bottom: 1rem;
+}
+
+.text {
+    font-size: 1rem;
+    margin: 2rem;
+    width: 50%;
+}
+
+.main-url {
+    text-decoration: none;
+    color: rgb(243,123,131);
+    margin-right: 2rem;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    margin: 5rem 2rem 2rem 2rem;
+    font-size: 1rem;
+}
+
+.links > a:hover {
+    color: rgba(243,123,131, 0.6);
+}
+
+@media (min-width: 767px) {
+    .section-one {
+        flex-direction: row;
+    }
+
+    .left {
+        height: 100vh;
+        width: 50%;
+        display: flex;
+        align-items: center;
+        padding: 0;
+    }
+
+    .right {
+        background: url(../imgs/profilePicture.jpeg);
+        background-size: cover;
+        background-position: center;
+        width: 50%;
+        height: 100vh;
+    }
+
+    .main-title {
+        font-size: 8vw;
+        width: 50%;
+    }
+
+    .main-text {
+        font-size: 3vw;
+    }
+
+    .text {
+        font-size: 1.5rem;
+        width: 50%;
+    }
+
+    .links{
+        font-size: 1.5vw;
+    }
+
+}
